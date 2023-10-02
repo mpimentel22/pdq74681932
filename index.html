@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DevQuest</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="html">Títulos e parágrafos</h1>
+    <h2>Títulos</h2>
+    <p>A tag <code class="texto-código">&lt;h&gt;</code> é usada para criar títulos e cabeçalhos em uma página da web. Ela é seguida por um número de 1 a 6, indicando o nível de importância e tamanho do título.</p>
+    <ol>
+        <li><code class="texto-código">&lt;h1&gt;</code>: É o título de maior importância e tamanho em uma página. Geralmente é usado para o título principal da página ou seção.</li>
+        <li><code class="texto-código">&lt;h2&gt;</code>: É um título secundário, um pouco menor que o <code class="texto-código">&lt;h1&gt;</code>. Pode ser usado para dividir o conteúdo em seções principais.</li>
+        <li><code class="texto-código">&lt;h3&gt;</code>: Este título é menor do que o <code class="texto-código">&lt;h2&gt;</code> e é geralmente usado para subseções dentro de uma seção <code class="texto-código">&lt;h2&gt;</code>.</li>
+        <li><code class="texto-código">&lt;h4&gt;</code>, <code class="texto-código">&lt;h5&gt;</code>, <code class="texto-código">&lt;h6&gt;</code>: São títulos de tamanho progressivamente menor. Eles são usados para subdividir ainda mais o conteúdo, se necessário.</li>
+    </ol>
+    <h3>Exemplo:</h3>
+    <pre>
+        <code>
+            &lt;<span class="tag">h1</span>&gt;Título 1&lt;/<span class="tag">h1</span>&gt;
+            &lt;<span class="tag">h2</span>&gt;Título 2/&lt;<span class="tag">h2</span>&gt;
+            &lt;<span class="tag">h3</span>&gt;Título 3&lt;/<span class="tag">h3</span>&gt;
+            &lt;<span class="tag">h4</span>&gt;Título 4&lt;/<span class="tag">h4</span>&gt;
+            &lt;<span class="tag">h5</span>&gt;Título 5&lt;/<span class="tag">h5</span>&gt;
+            &lt;<span class="tag">h6</span>&gt;Título 6&lt;/<span class="tag">h6</span>&gt;
+        </code>
+    </pre>
+    <h3>Resultado:</h3>
+    <div class="resultado">
+        <h1>Título 1</h1>
+        <h2>Título 2</h2>
+        <h3>Título 3</h3>
+        <h4>Título 4</h4>
+        <h5>Título 5</h5>
+        <h6>Título 6</h6>
+    </div>
+
+    <h2>Parágrafos</h2>
+    <p>A tag <code class="texto-código">&lt;p&gt;</code> é usada para criar um parágrafo de texto. Ela é uma das tags mais básicas e amplamente utilizadas em documentos HTML para estruturar o conteúdo textual. Quando você envolve um trecho de texto com a tag <code class="texto-código">&lt;p&gt;</code>, o navegador interpreta isso como um novo parágrafo, aplicando espaçamento antes e depois do texto para criar um formato de parágrafo.</p>
+    <h3>Exemplo:</h3>
+    <pre>
+        <code>
+            &lt;<span class="tag">p</span>&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, magni at veritatis alias laudantium sunt dolore quae, ab, nostrum qui eaque atque cum ratione esse officiis quas aliquam ódio! Modi.&lt;/<span class="tag">p</span>&gt;
+        </code>
+    </pre>
+    <h3>Resultado:</h3>
+    <div class="resultado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quo, praesentium iusto eius et accusantium. Aut rerum deserunt suscipit, natus ipsa quaerat laboriosam exercitationem excepturi ipsam omnis dicta enim molestias!</p>
+    </div>
+    <br>
+    <p>Os títulos devem ser usados para destacar seções importantes do conteúdo, enquanto os parágrafos são usados para organizar o texto em blocos legíveis.</p>
+
+    <h1>Formatação de texto</h1>
+    <p>Para formatar textos no HTML, utilize as seguintes tags:</p>
+    <ul>
+        <li><code class="texto-código">&lt;b&gt;</code>: Torna o texto ficar em negrito, mas não carrega um significado especial em termos de semântica.</li>
+        <li><code class="texto-código">&lt;strong&gt;</code>: Além de tornar o texto em negrito, esta tag também implica que o texto é semanticamente forte ou importante.</li>
+        <li><code class="texto-código">&lt;i&gt;</code>: Torna o texto em itálico, indicando que ele é um texto com ênfase ou variação no estilo, mas sem alterar o significado.</li>
+        <li><code class="texto-código">&lt;s&gt;</code>: Risca o texto, indicando que algo foi removido ou descontinuado.</li>
+    </ul>
+    <h3>Exemplo:</h3>
+    <pre>
+        <code>
+            &lt;<span class="tag">p</span>&gt;Esse é um texto &lt;<span class="tag">b</span>&gt;negrito genérico&lt;/<span class="tag">b</span>&gt;&lt;/<span class="tag">p</span>&gt;
+            &lt;<span class="tag">p</span>&gt;Esse é um texto &lt;<span class="tag">strong</span>&gt;negrito relevante&lt;/<span class="tag">strong</span>&gt;&lt;/<span class="tag">p</span>&gt;
+            &lt;<span class="tag">p</span>&gt;Esse é um texto &lt;<span class="tag">i</span>&gt;itálico&lt;/<span class="tag">i</span>&gt;&lt;/<span class="tag">p</span>&gt;
+            &lt;<span class="tag">p</span>&gt;Esse é um texto &lt;<span class="tag">s</span>&gt;taxado&lt;/<span class="tag">s</span>&gt;&lt;/<span class="tag">p</span>&gt;
+        </code>
+    </pre>
+    <h3>Resultado:</h3>
+    <div class="resultado">        
+        <p>Esse é um texto <b>negrito genérico</b></p>
+        <p>Esse é um texto <strong>negrito relevante</strong></p>
+        <p>Esse é um texto <i>itálico</i></p>
+        <p>Esse é um texto <s>taxado</s></p>
+    </div>
+    <p><span class="negrito">Observação:</span> embora a formatação de texto com o HTML seja possível, não é muito recomendável devido a uma questão estética e além de não ser o uso ideal da tag em si. O HTML é uma linguagem de marcação pensada em semântica, portanto se quiser adicionar estilo, o correto é usar CSS.</p>
+    <a class="texto-link negrito" href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting">Link da MDN com outras tags de formatação de texto</a>
+    
+    <h1>Comentários</h1>
+    <p>Um comentário <code class="texto-código">&lt;!—&gt;</code> é uma parte do código que não é executada pelo computador, ou seja, não aparece para o leitor comum, mas serve para adicionar notas e explicar o que está acontecendo no código. Os comentários ajudam os programadores a entender e documentar o código, facilitando a colaboração e a manutenção do projeto.</p>
+    <h3>Exemplo:</h3>
+    <pre>
+        <code>
+            <span class="comentário">&lt;!--meu comentário--&gt;</span>
+        </code>
+    </pre>
+    <h3>Atalhos:</h3>
+    <ul>
+        <li>Ctrl + ; (ou ctrl + K + C): transforma qualquer texto em um comentário automaticamente;</li>
+    </ul>
+
+    <h1>Links externos</h1>
+    <p>Links externos são hiperlinks que direcionam para páginas fora do site atual, permitindo acesso a conteúdo externo.</p>
+    <p>O atributo <code class="texto-código">href</code> define o URL do link externo. Quando o usuário clica no link, ele será redirecionado para o endereço fornecido.</p>
+    <h3>Exemplo:</h3>
+    <pre>
+        <code>
+            &lt;<span class="tag">a</span> <span class="atributo">href</span><span class="tag">=</span><span class="valor">"<span class= "link">https://linkexterno</span>"</span> <span class="atributo">target</span><span class="tag">=</span><span class="valor">"_blank"</span>&gt;Clique aqui&lt;/<span class="tag">a</span>&gt;
+        </code>
+    </pre>
+    
+</body>
+
+</html>
